@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Survey</title>
+</head>
+<body style="background-image: url(https://i.pinimg.com/564x/db/19/e8/db19e833ef663b74d7398370974715b5.jpg)">
+    <h1 id="title" style="color: #e8ceb5"> 
+    Yosemite Bear Den 
+     </h1>
+  <h3 id="subtitle" style="color: #dbe8b5">
+  Animal Sightings Survey
+    </h3>
+  <p id="description" style="color: #dbe8b5">
+  Please document the wild animals you saw during your stay  
+    </p>
+<form id="survey-form">
+    <label id="name-label" style="color: #dbe8b5"> Name </label> <div>
+    <input id="name" type="text" name="text" placeholder="Enter Your Name" required> </input> 
+ <div>
+    <label id="email-label" style="color: #dbe8b5"> Email </label> <div>
+    <input id="email" type="email" name="text" placeholder="Enter Your Email" required> </input> </div>
+    <label style="color: #dbe8b5"> Which Animal Did You See? <div>
+      <select style="color: #404729" id="dropdown" name="role" class="form-control" placeholder="Select" required>
+          <option disable selected value> Select </option>
+          <option value="black bear"> Black Bear</option>
+          <option value="coyote"> Coyote </option> 
+          <option value="bighorn sheep"> Bighorn Sheep</option> 
+          <option value="mule deer"> Mule Deer</option> </select>
+  <div>
+    <label id="number-label" style="color: #dbe8b5"> Number of Animals Seen </div>
+      <input style="color: #404729" id="number" type="number" min="0" max="100" class="form-control" placeholder="0" required>
+ <div>
+    <label style="color: #dbe8b5"> Were the Animals Far from Tourists? <div> 
+      <label> <input name="user-recommend" value="yes" type="radio" class="input-radio">
+      Yes </label>
+      <label> <input name="user-recommend" value="no" type="radio" class="input-radio">
+      No </label>
+  <div>
+    <label style="color: #dbe8b5"> What Actions Did You Take? <div> 
+      <label> <input name="user-recommend" value="vehicular" type="checkbox" class="input-checkbox">
+      Remain In Your Vehicle </label> <div>
+      <label> <input name="user-recommend" value="pedestrian" type="checkbox" class="input-checkbox">
+      Cross the Street </label> <div>
+      <label> <input name="user-recommend" value="pedestrian" type="checkbox" class="input-checkbox">
+      Keep Young Ones Away </label> <div>
+      <label> <input name="user-recommend" value="pedestrian" type="checkbox" class="input-checkbox">
+      Alert a Ranger </label> <div>
+    <label style="color: #dbe8b5"> Any Questions or Concerns? <div>
+        <textarea style="color: #404729"> </textarea>
+  <div>
+    <label style="color: #dbe8b5"> Thank You for Visiting <div>
+    <button id="submit" style="color: #404729"> Submit </button>
+</body>
+</html>
